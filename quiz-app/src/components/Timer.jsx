@@ -21,7 +21,7 @@ const Timer = () => {
         return prev - 1;
       })
     }, 1000);
-  },[leftTime])
+  },[])
 
   let displayTime = `${(Math.floor(leftTime/60))   
     .toString()
